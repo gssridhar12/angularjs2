@@ -10,6 +10,6 @@ export class ServerComponent {
   serverStatus = this.serverId>5 ? "online" : "offline";
 
   getColor(){
-    return this.serverId > 5 ? "green" : "red";
+    return this.serverId > 5 ? "black" : "blue";
   }
 }
