@@ -1,1 +1,1 @@
-<p [ngStyle]= "{color : getColor()}" [ngClass]="{'alert alert-success': serverId>5}">Server id : {{serverId}} and status is {{serverStatus}}</p>
+<p [ngStyle]= "{color : getColor()}" [ngClass]="{'alert alert-success': serverId>5, 'alert alert-warning': serverId<6}">Server id : {{serverId}} and status is {{serverStatus}}</p>
